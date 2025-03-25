@@ -32,7 +32,6 @@ public class FilmeService {
         return (List<Filme>) filmeRepository.findAll();
     }
 
-    // Método para alterar a avaliação (dar nota) de um filme
     public Filme darNota(String nome, int nota) {
         // Buscando o filme pelo nome
         Optional<Filme> filmeOptional = filmeRepository.findByNome(nome);

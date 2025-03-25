@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "filmes")  // Caso queira especificar o nome da tabela
+@Table(name = "filmes")  
 public class Filme {
     @GeneratedValue
     @Id
